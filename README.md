@@ -1,6 +1,10 @@
-# vue-kickstart
+# Holistic Kickstart
 
-## Project setup
+## Setup Process
+_We recommend copying this section into an issue and checking tasks off when complete._
+- [ ] update page title in `/public/index.html` from `'Holistic - Kickstart'`
+
+## UI Project setup
 ```
 npm install
 ```
