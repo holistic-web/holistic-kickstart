@@ -10,7 +10,7 @@
 			<template v-if="account">
 				<section
 					class="Sidebar__navigation">
-					<b-link
+					<router-link
 						class="Menu__link text-semibold"
 						:to="item.path"
 						v-for="item in menuItems"
@@ -169,7 +169,7 @@ export default {
 			color: $white;
 			padding: 1rem 2rem;
 
-			&.active {
+			&.router-link-active {
 				color: $blue-light;
 			}
 
