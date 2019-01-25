@@ -1,10 +1,20 @@
 # Holistic Kickstart
 
-## Setup Process
+## Kickstart
 _We recommend copying this section into an issue and checking tasks off when complete._
-- [ ] update page title in `/public/index.html` from `'Holistic - Kickstart'`
+- [ ] update browser page title in `/public/index.html` from `'Holistic - Kickstart'`
+- [ ] update sidebar title in `/src/components/sidebar.vue` from `'Holistic - Kickstart'`
+- [ ] update default API_URL in `/src/vuex/lib/buildCollectionStore.js` from `'https://replace.me/api'` to your cloud functions endpoint
 
-## UI Project setup
+## UI
+
+## Environment Variables
+- `BASE_URL` - the url the UI is currently hosted at
+- `API_URL` - the url the API is available at
+
+## Command Line Commands
+
+### Install dependencies
 ```
 npm install
 ```
