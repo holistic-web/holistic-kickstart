@@ -8,36 +8,36 @@ _We recommend copying this section into an issue and checking tasks off when com
 
 ## UI
 
-## Environment Variables
+### Environment Variables
 - `BASE_URL` - the url the UI is currently hosted at
 - `API_URL` - the url the API is available at
 
-## Command Line Commands
+### Command Line Commands
 
-### Install dependencies
+#### Install dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your tests
+#### Run your tests
 ```
 npm run test
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Customize configuration
+#### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
